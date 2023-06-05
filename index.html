@@ -28,14 +28,114 @@
         </div>
 
         <div class="end">
-          <h1>This is test brach</h1>
+          <ul class="right-items">
+            <li class="item">
+              <a href="#">
+                <span class="material-symbols-outlined"> search </span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                <span class="material-symbols-outlined"> help </span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                <span class="material-symbols-outlined"> shopping_cart </span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                <img src="./assets/profile.jpg" alt="" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
+    <main>
+      <div class="container">
+        <section id="hero">
+          <div class="pt-60">
+            <h1>
+              Welcome to the <br />
+              <span>Google Store</span>
+            </h1>
+          </div>
+        </section>
+
+        <section id="products">
+          <div class="row">
+            <div class="left">
+              <div class="contens">
+                <h1>Product Type</h1>
+                <ul class="profuct-items">
+                  <li class="item">
+                    <div class="flex">
+                      <input type="checkbox" />
+                      <span class="label">Connected home</span>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="flex">
+                      <input type="checkbox" />
+                      <span class="label">Phones</span>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="flex">
+                      <input type="checkbox" />
+                      <span class="label">Accessories</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main">
+              <div class="products-items">
+                <div class="product">
+                  <div class="thumbnile">
+                    <div class="aspect">
+                      <img
+                        src="https://lh3.googleusercontent.com/jnZRsyKMgqIyL8ZkVS2mBTNZ-ivbOy0KmigHrH2oro5CjvJvUkwEFheGlVovmBNeQ89qt2cfI1fM2wkXmt5zrEyZgRbfhe58bg=w679"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <h1>Pixel 7</h1>
+                </div>
+                <div class="product">
+                  <div class="thumbnile">
+                    <div class="aspect">
+                      <img
+                        src="https://lh3.googleusercontent.com/jnZRsyKMgqIyL8ZkVS2mBTNZ-ivbOy0KmigHrH2oro5CjvJvUkwEFheGlVovmBNeQ89qt2cfI1fM2wkXmt5zrEyZgRbfhe58bg=w679"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <h1>Pixel 5</h1>
+                </div>
+                <div class="product">
+                  <div class="thumbnile">
+                    <div class="aspect">
+                      <img
+                        src="https://lh3.googleusercontent.com/jnZRsyKMgqIyL8ZkVS2mBTNZ-ivbOy0KmigHrH2oro5CjvJvUkwEFheGlVovmBNeQ89qt2cfI1fM2wkXmt5zrEyZgRbfhe58bg=w679"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <h1>Pixel 6</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
 
     <script>
       const header = document.querySelector("header");
-      window.addEventListener("scroll", (e) => {
+      window.addEventListener("scroll", e => {
         console.log(e.scrollTop);
       });
     </script>
