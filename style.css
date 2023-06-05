@@ -94,12 +94,17 @@ header .right-items li {
 }
 
 header .right-items a {
-  color: #606060;
+  color: #5f6368;
   display: flex;
   align-items: center;
 }
 
+header .right-items a:hover {
+  color: #1a73e8;
+}
+
 header .right-items li a span {
+  transition: color 80ms ease-out;
   color: inherit;
   height: 24px;
   width: 24px;
